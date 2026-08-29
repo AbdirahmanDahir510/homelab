@@ -1,7 +1,0 @@
-docker/
-*.json
-*.pem
-*.key
-*.deb
-id_ed25519*
-.env
