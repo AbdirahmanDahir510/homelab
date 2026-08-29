@@ -1,0 +1,17 @@
+network:
+  version: 2
+  wifis:
+    wlo1:
+      dhcp4: no
+      addresses:
+        - <server-ip>/24
+      routes:
+        - to: default
+          via: <gateway-ip>
+      nameservers:
+        addresses: [1.1.1.1, 8.8.8.8]
+      access-points:
+        "<wifi-ssid>":
+          auth:
+            key-management: "psk"
+            password: "<wifi-password>"
