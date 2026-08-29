@@ -1,0 +1,9 @@
+tunnel: <TUNNEL-UUID>
+credentials-file: /etc/cloudflared/<TUNNEL-UUID>.json
+
+ingress:
+  - hostname: dahirabdirahman.com
+    service: http://localhost:80
+  - hostname: www.dahirabdirahman.com
+    service: http://localhost:80
+  - service: http_status:404

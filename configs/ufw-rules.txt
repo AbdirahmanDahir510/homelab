@@ -1,0 +1,17 @@
+Status: active
+
+     To                         Action      From
+     --                         ------      ----
+[ 1] 22/tcp                     ALLOW IN    Anywhere                  
+[ 2] 9443                       ALLOW IN    <lan-subnet>               
+[ 3] 80/tcp                     ALLOW IN    Anywhere                  
+[ 4] 443/tcp                    ALLOW IN    Anywhere                  
+[ 5] 9090                       ALLOW IN    <lan-subnet>               
+[ 6] 3000                       ALLOW IN    <lan-subnet>               
+[ 7] 9100/tcp                   ALLOW IN    Anywhere                  
+[ 8] 443                        ALLOW IN    <lan-subnet>               
+[ 9] 22/tcp (v6)                ALLOW IN    Anywhere (v6)             
+[10] 80/tcp (v6)                ALLOW IN    Anywhere (v6)             
+[11] 443/tcp (v6)               ALLOW IN    Anywhere (v6)             
+[12] 9100/tcp (v6)              ALLOW IN    Anywhere (v6)             
+

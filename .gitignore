@@ -1,6 +1,7 @@
-.env
-*.key
+docker/
+*.json
 *.pem
-secrets/
-*password*
-*credentials*
+*.key
+*.deb
+id_ed25519*
+.env
